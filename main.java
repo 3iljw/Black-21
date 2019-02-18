@@ -50,22 +50,22 @@ public class NewJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setFont(new java.awt.Font("?啁敦??", 0, 24)); // NOI18N
-        jLabel1.setText("?振??(?振?)");
+        jLabel1.setFont(new java.awt.Font("新細明體", 0, 24)); // NOI18N
+        jLabel1.setText("莊家手牌(莊家分數)");
 
-        jLabel2.setFont(new java.awt.Font("?啁敦??", 0, 24)); // NOI18N
-        jLabel2.setText("雿???(雿??)");
+        jLabel2.setFont(new java.awt.Font("新細明體", 0, 24)); // NOI18N
+        jLabel2.setText("你的手牌(你的分數)");
 
-        jButton1.setFont(new java.awt.Font("?啁敦??", 0, 24)); // NOI18N
-        jButton1.setText("蝜潛?鋆?");
+        jButton1.setFont(new java.awt.Font("新細明體", 0, 24)); // NOI18N
+        jButton1.setText("繼續補牌");
         jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton1MouseClicked(evt);
             }
         });
 
-        jButton2.setFont(new java.awt.Font("?啁敦??", 0, 24)); // NOI18N
-        jButton2.setText("?摨?");
+        jButton2.setFont(new java.awt.Font("新細明體", 0, 24)); // NOI18N
+        jButton2.setText("掀底牌");
         jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton2MouseClicked(evt);
@@ -103,33 +103,33 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/0.gif"))); // NOI18N
         jLabel12.setPreferredSize(new java.awt.Dimension(71, 96));
 
-        jButton3.setFont(new java.awt.Font("?啁敦??", 0, 24)); // NOI18N
-        jButton3.setText("???");
+        jButton3.setFont(new java.awt.Font("新細明體", 0, 24)); // NOI18N
+        jButton3.setText("開始遊戲");
         jButton3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton3MouseClicked(evt);
             }
         });
 
-        jLabel13.setFont(new java.awt.Font("?啁敦??", 0, 36)); // NOI18N
-        jLabel13.setText("  ?蝯?");
+        jLabel13.setFont(new java.awt.Font("新細明體", 0, 36)); // NOI18N
+        jLabel13.setText("  遊戲結果");
 
-        jButton4.setFont(new java.awt.Font("?啁敦??", 0, 24)); // NOI18N
-        jButton4.setText("?迫鋆?");
+        jButton4.setFont(new java.awt.Font("新細明體", 0, 24)); // NOI18N
+        jButton4.setText("停止補牌");
         jButton4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton4MouseClicked(evt);
             }
         });
 
-        jLabel14.setFont(new java.awt.Font("?啁敦??", 0, 48)); // NOI18N
+        jLabel14.setFont(new java.awt.Font("新細明體", 0, 48)); // NOI18N
         jLabel14.setText("0");
 
-        jLabel15.setFont(new java.awt.Font("?啁敦??", 0, 48)); // NOI18N
-        jLabel15.setText("?芰");
+        jLabel15.setFont(new java.awt.Font("新細明體", 0, 48)); // NOI18N
+        jLabel15.setText("未知");
 
-        jButton5.setFont(new java.awt.Font("?啁敦??", 0, 24)); // NOI18N
-        jButton5.setText("???");
+        jButton5.setFont(new java.awt.Font("新細明體", 0, 24)); // NOI18N
+        jButton5.setText("重新開始");
         jButton5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton5MouseClicked(evt);
@@ -327,7 +327,7 @@ public class NewJFrame extends javax.swing.JFrame {
             lost(n);
         }
         else if(n!=0){
-            jButton3.setText("撌脩????");
+            jButton3.setText("已經開始遊戲");
             lost(n);
         }
         
@@ -415,7 +415,7 @@ public class NewJFrame extends javax.swing.JFrame {
             lost(n);
         }
         else if(n==5){
-            jButton1.setText("?⊥?蝜潛?鋆?");
+            jButton1.setText("無法繼續補牌");
         }
     }//GEN-LAST:event_jButton1MouseClicked
 
@@ -423,12 +423,12 @@ public class NewJFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
         if(cant==100){
             computer(n);
-            jButton2.setText("?摨?");
+            jButton2.setText("掀底牌");
             jLabel15.setText(Integer.toString(plus2));
             jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource(String.valueOf(s[5])+".gif")));
         }
         else {
-            jButton2.setText("?瑞??撠?");
+            jButton2.setText("偷看的是小狗");
         }
     }//GEN-LAST:event_jButton2MouseClicked
 
@@ -451,13 +451,13 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("0.gif")));
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("0.gif")));
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("0.gif")));
-        jLabel13.setText("?蝯?");
+        jLabel13.setText("遊戲結果");
         jLabel14.setText(Integer.toString(0));
-        jLabel15.setText("?芰");
-        jButton1.setText("蝜潛?鋆?");
-        jButton2.setText("????);
-        jButton3.setText("???");
-        jButton4.setText("?迫鋆?");
+        jLabel15.setText("未知");
+        jButton1.setText("繼續補牌");
+        jButton2.setText("先底牌");
+        jButton3.setText("開始遊戲");
+        jButton4.setText("停止補牌");
 
     }//GEN-LAST:event_jButton5MouseClicked
 

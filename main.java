@@ -455,7 +455,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel14.setText(Integer.toString(0));
         jLabel15.setText("未知");
         jButton1.setText("繼續補牌");
-        jButton2.setText("先底牌");
+        jButton2.setText("掀底牌");
         jButton3.setText("開始遊戲");
         jButton4.setText("停止補牌");
 
